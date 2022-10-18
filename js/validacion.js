@@ -8,8 +8,6 @@ let check = document.getElementById("terminos");
 let btncheck = document.getElementById("btnCheck");
 
 
-
-
 function validData(dato){
     if (dato.value.length == 0){
         dato.classList.toggle("is-invalid")
@@ -47,6 +45,48 @@ function validCheck(){
 } 
 
 button.addEventListener("click", () => {  
+    validData(nombre);
+    validData(apellido);
+    validData(email);
+    validPassword()
+    validCheck();
+
+});
+
+
+nombre.addEventListener("input", () => {  
+    validData(nombre);
+    validData(apellido);
+    validData(email);
+    validPassword()
+    validCheck();
+});
+
+apellido.addEventListener("input", () => {  
+    validData(nombre);
+    validData(apellido);
+    validData(email);
+    validPassword()
+    validCheck();
+});
+
+email.addEventListener("input", () => {  
+    validData(nombre);
+    validData(apellido);
+    validData(email);
+    validPassword()
+    validCheck();
+});
+
+pass1.addEventListener("input", () => {  
+    validData(nombre);
+    validData(apellido);
+    validData(email);
+    validPassword()
+    validCheck();
+});
+
+pass2.addEventListener("input", () => {  
     validData(nombre);
     validData(apellido);
     validData(email);
