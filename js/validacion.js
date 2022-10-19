@@ -59,7 +59,7 @@ function validEmail() {
     }
 
 }
-
+/////////
 button.addEventListener("click", () => {
     validData(nombre);
     validData(apellido);
