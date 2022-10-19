@@ -34,7 +34,7 @@ function validPassword() {
         }
     
 }
-
+/////
 function validCheck(){
     if (check.checked == false){
         btncheck.classList.add("is-invalid")
